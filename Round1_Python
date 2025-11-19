@@ -1,0 +1,214 @@
+HANDS-ON LOGICAL TECHNICAL QUESTIONS (Python + SQL)
+Level: Entry-level/Freshers
+Purpose: Tests logical thinking, coding ability, problem-solving, and real hands-on skills
+
+SECTION A — Python
+1. Reverse words in a sentence (without using built-in reverse functions)
+
+Example Input: "Hello Algonex Team"
+Expected Output: "Team Algonex Hello"
+
+2. Count how many times each word appears in a paragraph
+
+Input: "This is a test. This test is simple."
+
+Expected Output:
+this: 2
+is: 2
+test: 2
+simple: 1
+
+Forces: lowercasing + splitting + dictionary usage.
+
+3. Remove duplicate elements from a list while preserving order
+Example Input: [4, 2, 4, 3, 2, 1, 3]
+Output: [4, 2, 3, 1]
+
+Forces: loops, condition checks, logic — not copy/paste.
+
+4. Given a list of user dictionaries, filter all users with age > 25
+users = [
+    {"name": "Arun", "age": 22},
+    {"name": "Megha", "age": 29},
+    {"name": "Rohit", "age": 31}
+]
+
+Output:
+[{"name": "Megha", "age": 29}, {"name": "Rohit", "age": 31}]
+
+Forces: list comprehension + dict 
+
+5. Read a JSON file and print only the names field
+employees.json:
+[
+  {"name": "Kavya", "salary": 50000},
+  {"name": "Ramesh", "salary": 62000}
+]
+
+Output:
+Kavya
+Ramesh
+
+Forces: file handling + JSON parsing.
+
+6. Find the second largest number in a list (without using sort())
+Input: [1, 8, 3, 10, 7]
+Output: 8
+
+Forces: algorithm, iteration logic
+
+7. Check if two strings are anagrams
+Input: "listen" and "silent"
+Output: True
+
+Forces: dictionary/hashmap logic
+
+8. Convert a list of names into a CSV string
+Input:
+["Arun", "Megha", "Rohit"]
+
+Output:
+Arun,Megha,Rohit
+
+Forces: join logic
+
+9. Find consecutive number sequences in a list
+Input:
+nums = [1, 2, 3, 7, 8, 10, 11, 12, 20]
+
+Expected Output:
+[[1,2,3], [7,8], [10,11,12], [20]]
+
+Tests: loops, condition checks, grouping logic
+
+10. Clean messy user data
+Given:
+users = ["  arun ", "Megha", "  ROHIT", "kavya  "]
+
+Transform into:
+["Arun", "Megha", "Rohit", "Kavya"]
+
+Tests: strip(), capitalize(), list comprehension, data cleanup logic
+
+11. DICTIONARY LOGIC: Merge two dictionaries with sum of values
+Input:
+a = {"apple": 3, "banana": 2}
+b = {"apple": 5, "orange": 7}
+
+Output:
+{"apple": 8, "banana": 2, "orange": 7}
+
+Tests: loops, dict operations, merging
+
+12. ALGORITHM: Find missing numbers in a range
+Input:
+nums = [1, 2, 4, 6, 7, 9]
+
+Output:
+[3, 5, 8]
+
+Tests: set logic, math logic, iteration
+
+13. Read CSV file and remove rows with empty values
+Sample CSV rows:
+name,age,city
+Arun,23,Bangalore
+Megha,,Chennai
+,Rohan,Hyderabad
+
+Expected Output (Python list of dicts, valid rows only):
+
+14. API LOGIC: Build a tiny API response formatter
+Input:
+{
+ "name": "Arun",
+ "skills": ["Python", "SQL"],
+ "experience": 0
+}
+
+Output:
+{
+ "name": "Arun",
+ "message": "Entry-level candidate",
+ "skills_count": 2
+}
+
+Tests: dict manipulation, conditional logic
+[
+  {"name": "Arun", "age": "23", "city": "Bangalore"}
+]
+
+Tests: csv module, file handling, data validation
+
+15. STRING PROCESSING: Extract email IDs from text
+Input:
+"Contact us at support@algonex.com or hr@algonex.co.in"
+
+Output:
+["support@algonex.com", "hr@algonex.co.in"]
+
+Tests: regex, pattern matching
+
+16. SQL-LIKE PYTHON: Group data by key (like GROUP BY)
+Input:
+users = [
+  {"dept": "IT", "name": "Arun"},
+  {"dept": "HR", "name": "Megha"},
+  {"dept": "IT", "name": "Ramesh"}
+]
+
+Output:
+{
+ "IT": ["Arun", "Ramesh"],
+ "HR": ["Megha"]
+}
+
+Tests: dict grouping logic
+
+17. Find top 3 most frequent elements
+Input:
+nums = [4,4,1,2,4,2,3,2,2,1]
+
+Output:
+[(2,4), (4,3), (1,2)]   # (value, count)
+
+Tests: Counter, sorting, tuples
+
+18. Handle missing keys gracefully
+Input:
+data = {"name": "Arun"}
+
+Expected safe output:
+age not found
+
+Tests: try/except, get(), error safety
+
+19. Sort list of dictionaries by nested key
+Input:
+users = [
+ {"name": "Arun", "details": {"age": 26}},
+ {"name": "Megha", "details": {"age": 21}},
+ {"name": "Rohit", "details": {"age": 29}}
+]
+
+Sort by age ascending.
+Tests: lambda, nested access
+
+20. Write a Python script to log errors into a file
+Simulate:
+try:
+    x = 10/0
+except:
+    log into "errors.txt"
+
+Tests: file writing + exception handling
+
+21. Convert messy text to clean tokens
+Input:
+"This!!! is?? Algonex--Tech"
+
+Expected Output:
+["this", "is", "algonex", "tech"]
+
+Tests: regex cleanup, lowercasing, splitting
+
