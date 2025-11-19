@@ -1,0 +1,59 @@
+SECTION 1 — Python (Core + Framework + Real Project Skills)
+1. Practical Coding Questions
+
+"You’re given a list of dictionaries representing user data. Filter users with age > 25 and sort them by name. Write the code."
+"Write a Python function to remove duplicates from a list while maintaining order."
+"Given a log file (as text), extract all email IDs using regex."
+
+2. Framework / API Questions (Django/FastAPI/Flask)
+
+"Explain the folder structure of your last Python project."
+"Show me how you created an API endpoint in your project. Explain the flow."
+"How did you handle authentication? JWT? Session? OAuth? Explain live."
+"How did you connect Python backend to your database?"
+"In FastAPI or Flask, how do you handle input validation?"
+
+3. Hands-on Deep-Dive Questions
+
+"Show me the most complex function you wrote in your project. Explain why you wrote it that way."
+"Tell me about a bug you solved recently. How did you debug it?"
+"Open your GitHub project and explain the architecture."
+
+SECTION 2 — SQL (MySQL/PostgreSQL) Practical Questions
+1. Query Writing (On-the-spot)
+
+"Given tables employees and departments, write a query to find the top 2 highest paid employees in each department."
+"Write SQL to find duplicate emails in a users table."
+"Write SQL to get the month-on-month sales growth percentage."
+
+2. Real-World Problem Questions
+
+"Tell me about a stored procedure you built. What business problem did it solve?"
+"Show me how you optimize a slow SQL query."
+"Explain indexing. In your own project, which columns did you index and why?"
+
+SECTION 3 — Frontend (HTML, CSS, JS, React)
+1. Hands-on Coding Questions
+
+"Build a responsive button with hover effect using CSS."
+
+"Write JavaScript code to fetch API data and display it."
+
+"Create a simple form page with validation (email + password)."
+
+2. React / Modern Frontend Questions
+
+"Explain how you structured your React components in your last project."
+
+"Show me your favorite reusable component and explain its logic."
+
+"How did you handle form management—Formik? React Hook Form?"
+
+"How did you integrate your frontend with the backend API?"
+
+3. Project-Based Assessment
+
+"Show me your deployed website. What part of it did you build?"
+"Open your GitHub repo and explain your folder structure."
+"Tell me the hardest frontend challenge you solved."
+
