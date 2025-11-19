@@ -1,0 +1,64 @@
+MYSQL Questions for Round1 by Algonex IT Solutions
+
+1. Find the second highest salary WITHOUT using LIMIT, OFFSET
+(Hint: Use a single subquery or DISTINCT comparison)
+
+2. Fetch employees who have the HIGHEST salary in each department.
+(Trick: Using window functions OR correlated subquery)
+
+3. Write a query to find duplicate names but show only the names, not counts.
+Expected:
+Rahul
+Arun
+Megha
+(Trick: GROUP BY + HAVING + subquery)
+
+4. Find employees who joined on weekends (Saturday/Sunday).
+(Trick: dateFunction(date_column))
+
+5. Display records that exist in Table A but DO NOT exist in Table B
+6. Retrieve the 3rd highest salary for each department using window functions
+7. Identify employees whose salary is higher than the department average.
+(Trick: correlated subquery)
+
+8. Delete ONLY the duplicate rows but keep the one with the lowest id.
+9. Find the missing employee IDs in a table.
+Given employee IDs:
+1, 2, 4, 5, 7
+Output should be:
+3, 6
+
+10. Show customers who purchased more than once, BUT never bought the same product twice
+List all departments that have ZERO employees
+
+11. Retrieve employees with palindrome names
+12. Select all duplicate rows INCLUDING counts alongside them
+13. Find top 3 most repeated cities in the employee table
+14. Find employees who share the same salary as someone else (Use IN with SUBQUERY)
+15. Given tables:
+employees
+(id, name, dept_id, salary)
+
+departments
+(dept_id, dept_name, manager)
+
+Questions:
+- Fetch all employees even if they have no department assigned.
+- Show employees along with their manager names.
+
+16. GROUP BY, Aggregation, and Filters
+
+- Write a query to find average salary per department.
+- Find the department with the highest total salary.
+- Explain the difference between COUNT(*) and COUNT(column).
+- Write a query to find minimum, maximum, and average salary at once
+
+17. Subqueries & Advanced Conditions
+
+- Retrieve employees whose salary is greater than the average salary.
+- Fetch the third highest salary (with and without LIMIT).
+- Display employees whose salary matches someone else’s salary.
+
+18. Fetch names starting with ‘A’ and it's a 5 letter word
+19. What is the difference between UNION and UNION ALL?
+20. Write the Query for the Outer Join in MYSQL
